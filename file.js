@@ -15,12 +15,12 @@ startbtn.addEventListener("click", function () {
         minute.innerHTML = m ;
         seconde.innerHTML = s;
         hours.innerHTML = h;
-        if (seconde.innerHTML == "6") {
+        if (seconde.innerHTML == "60") {
             m = m +1;
             minute.innerHTML = m;
             s = 0;
         }
-        if (m == "6") {
+        if (m == "60") {
             m = 0;
             h = h + 1;
             hours.innerHTML = h;
